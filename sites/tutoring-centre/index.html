@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en-GB" data-type="place" data-radius="soft" data-buttons="solid" data-motion>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tillmore: 11+ tutoring for Years 3 to 5 in Caversham</title>
+<meta name="description" content="Weekly classes in English, maths and reasoning for children in Year 3, 4 and 5, with holiday courses and mock exams. Start with a free assessment.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tillmore: 11+ tutoring for Years 3 to 5 in Caversham">
+<meta property="og:description" content="Weekly classes in English, maths and reasoning for Years 3 to 5, all year round.">
+<meta property="og:image" content="share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#ecebe7">
+<!-- <link rel="canonical" href="https://[the client's domain]/"> : the client's domain is still to come -->
+<meta name="site-kind" content="other">
+<meta name="page-type" content="place">
+<meta name="page-kind" content="place">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@75..100,400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/system.css">
+<link rel="stylesheet" href="assets/ui/cards.css">
+<link rel="stylesheet" href="assets/motion/motion.css">
+<link rel="stylesheet" href="assets/layout/layout.css">
+<style>
+:root {
+  --p-bg: #ecebe7; --p-surface: #e1dfd9; --p-ink: #38450f; --p-muted: #5a6537;
+  --p-accent: #38450f; --p-accent-ink: #ecebe7; --p-action: #38450f; --p-action-ink: #ecebe7;
+  --p-inv-bg: #38450f; --p-inv-surface: #435020; --p-inv-ink: #ecebe7; --p-inv-muted: #bbbfaf;
+  --p-inv-accent: #ecebe7; --p-inv-accent-ink: #38450f; --p-inv-action: #ecebe7; --p-inv-action-ink: #38450f;
+  --font-display: "Instrument Sans", system-ui, sans-serif;
+  --font-text: "Instrument Sans", system-ui, sans-serif;
+  --display-weight: 400;
+  --display-tracking: -0.02em;
+}
+</style>
+<link rel="stylesheet" href="site.css">
+<script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
+<script>document.documentElement.classList.add('mo-js');setTimeout(()=>document.documentElement.classList.add('mo-safe'),2500)</script>
+<link rel="modulepreload" href="assets/moments/moments.js">
+<link rel="modulepreload" href="assets/moments/lib.js">
+<link rel="modulepreload" href="assets/moments/word-highlight/moment.js">
+<link rel="modulepreload" href="assets/moments/picture-develops/moment.js">
+</head>
+<body>
+<!-- type: place (page type place, site-kind other)
+     deal: hero place (printed), palette olive-on-bone (card-pastels' hot pink clashed with the sage, ochre and
+     terracotta of the supplied illustrations; a bone ground like exercise-book paper and the illustrations' olive-sage),
+     type instrument-sans, nav nav-split (dealt nav-cards: re-dealt, built before the full illustration set arrived; kept),
+     footer footer-visit, rhythm colour-band (the close and footer on .ground-brand), buttons solid, mark leaf,
+     offer pair (Year 3 and Year 5 illustrations), place story, type moment address
+     (dealt name: re-dealt, close-word never sits on a place's colour-band), rooms: not used
+     moments: word-highlight in #approach (the weekly method lights up as it is read),
+              picture-develops in #subjects (the classroom comes up like a print)
+     glass (user request): the nav bar, the basket drawer, the order panels on shop.html and checkout.html -->
+<header class="nav nav--split">
+  <div class="wrap nav__bar">
+    <a class="skip-link" href="#top">Skip to content</a>
+    <a class="nav__logo" href="#top"><span class="mark" data-mark="leaf" aria-hidden="true"></span>Tillmore</a>
+    <nav class="nav__links" aria-label="Main">
+      <div class="nav__item"><a class="nav__link" href="#classes">Classes</a></div>
+      <div class="nav__item"><a class="nav__link" href="#subjects">Subjects</a></div>
+      <div class="nav__item"><a class="nav__link" href="#visit">Visit</a></div>
+      <div class="nav__item"><a class="nav__link" href="shop.html">Shop</a></div>
+    </nav>
+    <div class="nav__actions">
+      <button class="basket-btn" type="button" data-basket-open aria-label="Basket" aria-haspopup="dialog" aria-controls="basket">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 6h14l-1.2 10.2a1 1 0 0 1-1 .8H5.2a1 1 0 0 1-1-.8L3 6z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M7 8V5.5a3 3 0 0 1 6 0V8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span class="basket-btn__label">Basket</span><span class="basket-btn__count" data-basket-count data-empty>0</span>
+      </button>
+      <a class="btn btn--primary" href="#book">Book a free assessment</a>
+    </div>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-label="Menu">
+      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 13h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <dialog class="basket glass" id="basket" aria-labelledby="basket-h">
+    <div class="basket__head"><h2 id="basket-h">Your basket</h2>
+      <button class="basket__close" type="button" data-basket-close aria-label="Close the basket"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button></div>
+    <div class="basket__body">
+      <div class="basket__empty" data-basket-empty><p>Your basket is empty. Term places, holiday courses, mock exams and paper packs are in the shop.</p><a class="btn btn--secondary" href="shop.html">See the shop</a></div>
+      <ul class="lines" data-basket-lines></ul>
+    </div>
+    <div class="basket__foot" data-basket-foot hidden>
+      <p class="total"><span>Total<small>No payment is taken online yet</small></span><span data-basket-total>£0.00</span></p>
+      <a class="btn btn--secondary" href="checkout.html" data-checkout-link>Go to checkout</a>
+    </div>
+  </dialog>
+</header>
+
+<main id="top">
+  <section class="hero hero--place" data-enter aria-labelledby="hero-h">
+    <img class="hero__bg" data-phone-fill src="assets/img/hero-1440.webp" srcset="assets/img/hero-780.webp 780w, assets/img/hero-1440.webp 1440w" sizes="(max-width: 1023px) 1440px, 100vw" width="1440" height="804" alt="A tutor crouches beside a round table where three children work on practice papers, one with a hand raised." style="--ly-pos: 50% 50%" fetchpriority="high" data-source="illustration" data-subject="a tutor and three children at a round table with practice papers">
+    <div class="wrap"><div class="hero-text">
+      <div class="hero__text">
+        <h1 id="hero-h">11+ tutoring centre in <span data-assumed>Caversham</span></h1>
+        <p class="hero__lead">Classes for Years 3, 4 and 5 all year, weekdays from <span data-assumed>15:45</span> and Saturdays from <span data-assumed>9:00</span>.</p>
+        <div class="btn-row"><a class="btn btn--primary" href="#book">Book a free assessment<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a></div>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="section" id="visit" data-place="visit" aria-labelledby="visit-h">
+    <div class="wrap">
+      <div class="section-head"><h2 id="visit-h">Visit the centre</h2></div>
+      <p class="type-moment"><a class="link" href="https://www.openstreetmap.org/search?query=Caversham%20Reading" data-assumed>Caversham,<br>Reading</a></p>
+      <div class="grid grid--top" style="margin-top: var(--s-5)">
+        <div class="visit visit--card span-6">
+          <div class="visit__cols">
+            <div class="visit__col stack-4">
+              <address class="visit__address" data-assumed>Caversham<br>Reading</address>
+              <a class="btn btn--secondary" href="https://www.openstreetmap.org/search?query=Caversham%20Reading">See the area</a>
+            </div>
+            <div class="visit__col">
+              <dl class="hours" data-tz="Europe/London" data-assumed><dt data-days="mon-fri">Mon to Fri</dt><dd>15:45 to 19:30</dd><dt data-days="sat">Sat</dt><dd>9:00 to 13:30</dd><dt data-days="sun">Sun</dt><dd>Closed</dd></dl>
+            </div>
+          </div>
+        </div>
+        <div class="pair visit-pair span-6 start-7">
+          <a class="pl-photo m-zoom" href="#book" aria-label="Book a free assessment at the centre"><img src="assets/img/centre-door-1200.webp" srcset="assets/img/centre-door-780.webp 780w, assets/img/centre-door-1200.webp 1200w, assets/img/centre-door-1600.webp 1600w" sizes="(max-width: 639px) 50vw, (max-width: 1023px) 50vw, 300px" width="1200" height="1490" alt="A parent and child walk past the green door and big window of a small high-street tutoring centre." loading="lazy" data-source="illustration" data-subject="the centre's shopfront with a parent and child at the door"></a>
+          <a class="pl-photo m-zoom" href="#book" aria-label="Book a free assessment and see the reading corner"><img src="assets/img/reading-corner-1200.webp" srcset="assets/img/reading-corner-780.webp 780w, assets/img/reading-corner-1200.webp 1200w, assets/img/reading-corner-1600.webp 1600w" sizes="(max-width: 639px) 50vw, (max-width: 1023px) 50vw, 300px" width="1200" height="1490" alt="Children read on floor cushions in a cosy corner of low bookshelves, a lamp and a trailing plant." loading="lazy" data-source="illustration" data-subject="the centre's reading corner with children reading on floor cushions"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="classes" aria-labelledby="classes-h">
+    <div class="wrap">
+      <div class="head-row">
+        <h2 id="classes-h">Classes and fees</h2>
+        <p>A term is <span data-assumed>12 weekly two-hour classes</span>. <a class="link" href="shop.html">See the shop</a></p>
+      </div>
+      <div class="grid grid--top fees" style="margin-top: var(--s-7)">
+        <div class="span-3">
+          <p class="t-label">Term classes</p>
+          <ul class="rows" style="margin-top: var(--s-3)">
+            <li><span class="rows__name">Year 3</span><span class="rows__value" data-assumed>£396</span><p class="muted">Maths, English, first puzzles</p></li>
+            <li><span class="rows__name">Year 4</span><span class="rows__value" data-assumed>£432</span><p class="muted">All four 11+ subjects</p></li>
+            <li><span class="rows__name">Year 5</span><span class="rows__value" data-assumed>£474</span><p class="muted">Timed GL and CEM papers</p></li>
+          </ul>
+        </div>
+        <div class="span-3">
+          <p class="t-label">Holidays and mocks</p>
+          <ul class="rows" style="margin-top: var(--s-3)">
+            <li><span class="rows__name">Easter course</span><span class="rows__value" data-assumed>£168</span><p class="muted" data-assumed>Four mornings, Years 4 and 5</p></li>
+            <li><span class="rows__name">Summer course</span><span class="rows__value" data-assumed>£214.50</span><p class="muted" data-assumed>Five mornings, Year 5</p></li>
+            <li><span class="rows__name">Mock exam</span><span class="rows__value" data-assumed>£38.50</span><p class="muted">Exam conditions, marked</p></li>
+          </ul>
+        </div>
+        <div class="pair span-6 start-7">
+          <a class="pl-photo m-zoom" href="shop.html#terms" style="--pl-r: 1" aria-label="See Year 3 term places in the shop"><img src="assets/img/year3-1200.webp" srcset="assets/img/year3-1600.webp 1600w, assets/img/year3-1200.webp 1200w, assets/img/year3-780.webp 780w" sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 640px" width="1200" height="1200" alt="A young child lines up coloured fraction bars while a tutor points to one piece." loading="lazy" data-source="illustration" data-subject="A Year 3 child (age 7) building fractions with coloured fraction bars on a table, a tutor's hand pointing to one piece."></a>
+          <a class="pl-photo m-zoom" href="shop.html#terms" style="--pl-r: 1" aria-label="See Year 5 term places in the shop"><img src="assets/img/year5-1200.webp" srcset="assets/img/year5-1600.webp 1600w, assets/img/year5-1200.webp 1200w, assets/img/year5-780.webp 780w" sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 640px" width="1200" height="1200" alt="A child works through a practice paper at a desk beside a small clock." loading="lazy" data-source="illustration" data-subject="A Year 5 child (age 9 to 10) working through a timed practice paper at a desk, a simple analogue clock with no numbers on the table."></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- word-highlight: one statement of 12 to 40 words in its own section, one strong word in <strong> -->
+  <section class="section statement" id="approach" data-moment="word-highlight" aria-label="How a class runs">
+    <div class="wrap">
+      <p class="t-label">How a class runs</p>
+      <p class="mo-wh__text">Every class runs in the same order. A tutor teaches one method, your child practises it on paper, then <strong>explains it back out loud</strong>. If they can explain it, they can use it in the exam.</p>
+    </div>
+  </section>
+
+  <section class="section" id="subjects" aria-labelledby="subjects-h">
+    <div class="wrap grid grid--top">
+      <div class="span-6">
+        <div class="section-head"><h2 id="subjects-h">One room, four 11+ subjects</h2></div>
+        <div class="story__text">
+          <p>Year 3 starts with maths and English. Verbal and non-verbal reasoning join in Year 4. Year 5 sits timed papers in GL Assessment and CEM styles, which differ by region.</p>
+          <p>The 11+ is demanding and no tutor can promise a grammar school place. We promise the same table each week and a written report each term.</p>
+        </div>
+        <p><a class="link" href="shop.html#courses">See mock exam prices</a></p>
+        <figure class="subjects-photo"><img src="assets/img/verbal-reasoning-1200.webp" srcset="assets/img/verbal-reasoning-780.webp 780w, assets/img/verbal-reasoning-1200.webp 1200w, assets/img/verbal-reasoning-1600.webp 1600w" sizes="(max-width: 1023px) 100vw, 588px" width="1200" height="1200" alt="Two children and a tutor talk through a puzzle card of coloured shapes at a table." loading="lazy" data-source="illustration" data-subject="two children and a tutor talking through a reasoning puzzle card"></figure>
+      </div>
+      <!-- picture-develops: the section's one picture, half the container wide -->
+      <figure class="develop span-6 start-7" data-moment="picture-develops"><img src="assets/img/room-1200.webp" srcset="assets/img/room-780.webp 780w, assets/img/room-1200.webp 1200w, assets/img/room-1600.webp 1600w" sizes="(max-width: 1023px) 100vw, 800px" width="1200" height="670" alt="An empty, sunlit classroom with grouped tables, a whiteboard of simple shapes, bookshelves and coats on hooks." loading="lazy" data-source="illustration" data-subject="the empty classroom seen from the door"></figure>
+    </div>
+  </section>
+
+  <section class="section" id="book" aria-labelledby="book-h">
+    <div class="wrap grid grid--top book-grid">
+      <div class="span-6 book-text">
+        <div class="section-head">
+          <h2 id="book-h">Book a free assessment</h2>
+          <p>Your child sits a short assessment in English, maths and reasoning, <span data-assumed>about 75 minutes on a Saturday morning</span>. Then we place them in a group and talk you through it.</p>
+        </div>
+        <div class="book-panel">
+        <form class="form" action="mailto:hello@tillmore.example" method="post" enctype="text/plain" data-endpoint="" data-sent="Your assessment request is in. We reply by email with a time." novalidate>
+          <div class="field"><label for="f-parent">Your name</label>
+            <input id="f-parent" name="parent" type="text" autocomplete="name" required aria-describedby="f-parent-err">
+            <p class="field__error" id="f-parent-err" hidden>Write the name we should reply to.</p></div>
+          <div class="field"><label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="f-email-err">
+            <p class="field__error" id="f-email-err" hidden>Write an email address with an @, like name@example.com.</p></div>
+          <div class="field"><label for="f-child">Child's first name</label>
+            <input id="f-child" name="child" type="text" autocomplete="off" required aria-describedby="f-child-err">
+            <p class="field__error" id="f-child-err" hidden>Write your child's first name.</p></div>
+          <div class="field"><label for="f-year">School year</label>
+            <select id="f-year" name="year" required aria-describedby="f-year-err"><option value="">Choose a year</option><option>Year 3</option><option>Year 4</option><option>Year 5</option></select>
+            <p class="field__error" id="f-year-err" hidden>Choose the school year your child is in now.</p></div>
+          <div class="btn-row"><button class="btn btn--primary" type="submit">Book a free assessment</button></div>
+          <p class="form__status" role="status" data-form-status></p>
+          <p class="t-small">We reply by email with a time. The assessment is free.</p>
+        </form>
+        </div>
+      </div>
+      <figure class="pl-photo pl-photo--end book-photo span-6 start-7" style="--pl-r: .9"><img src="assets/img/parent-feedback-1200.webp" srcset="assets/img/parent-feedback-1600.webp 1600w, assets/img/parent-feedback-1200.webp 1200w, assets/img/parent-feedback-780.webp 780w" sizes="(max-width: 639px) 1600px, (max-width: 1023px) 100vw, 600px" width="1200" height="1200" alt="A tutor shows a parent a folder of their child's work with simple bar charts, the child sitting alongside." loading="lazy" data-source="illustration" data-subject="A tutor at a small table showing a parent a folder of a child's work with simple bar charts and no text, the child sitting beside the parent."></figure>
+    </div>
+  </section>
+</main>
+
+<footer class="footer closing footer--visit ground-brand" id="contact" aria-labelledby="close-h">
+  <div class="wrap">
+    <div class="closing__cta close--word">
+      <div class="section-head--split">
+        <div><h2 id="close-h">Start with a free assessment</h2><p class="t-lead">English, maths and reasoning, with feedback for you the same week.</p></div>
+        <a class="btn btn--primary" href="#book">Book a free assessment<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a>
+      </div>
+    </div>
+    <div class="closing__links">
+      <div class="grid">
+        <div class="span-6 stack-4">
+          <address class="footer__address" data-assumed>Caversham<br>Reading</address>
+          <p><a class="link" href="https://www.openstreetmap.org/search?query=Caversham%20Reading">See the area</a></p>
+        </div>
+        <div class="span-6 start-7 stack-4">
+          <h3>Opening hours</h3>
+          <dl class="hours" data-tz="Europe/London" data-assumed><dt data-days="mon-fri">Mon to Fri</dt><dd>15:45 to 19:30</dd><dt data-days="sat">Sat</dt><dd>9:00 to 13:30</dd><dt data-days="sun">Sun</dt><dd>Closed</dd></dl>
+        </div>
+      </div>
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="#classes">Classes</a><a href="#subjects">Subjects</a><a href="#visit">Visit</a><a href="shop.html">Shop</a><a href="checkout.html">Checkout</a>
+      </nav>
+      <div class="footer__legal">
+        <span>&copy; 2026 Tillmore</span>
+        <a href="privacy.html">Privacy</a>
+        <details class="credits"><summary>Illustrations made with Google Gemini</summary><p>Every illustration on this site was generated with Google Gemini for this draft, in place of photographs of the centre.</p></details>
+      </div>
+    </div>
+  </div>
+</footer>
+<nav class="actionbar" aria-label="Quick actions">
+  <a class="btn btn--primary" href="#book">Book a free assessment</a>
+</nav>
+<script src="cart.js" defer></script>
+<script type="module" src="assets/system.js"></script>
+<script type="module" src="assets/motion/motion.js"></script>
+<script type="module" src="assets/layout/layout.js"></script>
+</body>
+</html>

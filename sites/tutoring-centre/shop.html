@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en-GB" data-type="place" data-radius="soft" data-buttons="solid" data-motion>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tillmore shop: term places, 11+ courses and paper packs</title>
+<meta name="description" content="Pay for Year 3, 4 and 5 term places, Easter and summer 11+ courses, mock exams and practice paper packs at Tillmore in Caversham.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tillmore shop: term places, 11+ courses and paper packs">
+<meta property="og:description" content="Term places, holiday courses, mock exams and 11+ paper packs, priced in pounds.">
+<meta property="og:image" content="share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#ecebe7">
+<!-- <link rel="canonical" href="https://[the client's domain]/"> : the client's domain is still to come -->
+<meta name="site-kind" content="other">
+<meta name="page-type" content="place">
+<meta name="page-kind" content="place">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@75..100,400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/system.css">
+<link rel="stylesheet" href="assets/ui/cards.css">
+<link rel="stylesheet" href="assets/motion/motion.css">
+<link rel="stylesheet" href="assets/layout/layout.css">
+<style>
+:root {
+  --p-bg: #ecebe7; --p-surface: #e1dfd9; --p-ink: #38450f; --p-muted: #5a6537;
+  --p-accent: #38450f; --p-accent-ink: #ecebe7; --p-action: #38450f; --p-action-ink: #ecebe7;
+  --p-inv-bg: #38450f; --p-inv-surface: #435020; --p-inv-ink: #ecebe7; --p-inv-muted: #bbbfaf;
+  --p-inv-accent: #ecebe7; --p-inv-accent-ink: #38450f; --p-inv-action: #ecebe7; --p-inv-action-ink: #38450f;
+  --font-display: "Instrument Sans", system-ui, sans-serif;
+  --font-text: "Instrument Sans", system-ui, sans-serif;
+  --display-weight: 400;
+  --display-tracking: -0.02em;
+}
+</style>
+<link rel="stylesheet" href="site.css">
+<script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
+<script>document.documentElement.classList.add('mo-js');setTimeout(()=>document.documentElement.classList.add('mo-safe'),2500)</script>
+<link rel="modulepreload" href="assets/moments/moments.js">
+<link rel="modulepreload" href="assets/moments/lib.js">
+<link rel="modulepreload" href="assets/moments/picture-develops/moment.js">
+</head>
+<body>
+<!-- shop.html: a sub-page of the place page index.html. Same palette, pairing, nav, footer and buttons. Hero: the place hero. Moment: picture-develops in #papers (dealt with moments.mjs pick --page place). Every price and product detail is assumed (data-assumed). -->
+<header class="nav nav--split">
+  <div class="wrap nav__bar">
+    <a class="skip-link" href="#top">Skip to content</a>
+    <a class="nav__logo" href="index.html"><span class="mark" data-mark="leaf" aria-hidden="true"></span>Tillmore</a>
+    <nav class="nav__links" aria-label="Main">
+      <div class="nav__item"><a class="nav__link" href="index.html#classes">Classes</a></div>
+      <div class="nav__item"><a class="nav__link" href="index.html#subjects">Subjects</a></div>
+      <div class="nav__item"><a class="nav__link" href="index.html#visit">Visit</a></div>
+      <div class="nav__item"><a class="nav__link" href="shop.html" aria-current="page">Shop</a></div>
+    </nav>
+    <div class="nav__actions">
+      <button class="basket-btn" type="button" data-basket-open aria-label="Basket" aria-haspopup="dialog" aria-controls="basket">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 6h14l-1.2 10.2a1 1 0 0 1-1 .8H5.2a1 1 0 0 1-1-.8L3 6z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M7 8V5.5a3 3 0 0 1 6 0V8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span class="basket-btn__label">Basket</span><span class="basket-btn__count" data-basket-count data-empty>0</span>
+      </button>
+      <a class="btn btn--primary" href="index.html#book">Book a free assessment</a>
+    </div>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-label="Menu">
+      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 13h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <dialog class="basket glass" id="basket" aria-labelledby="basket-h">
+    <div class="basket__head"><h2 id="basket-h">Your basket</h2>
+      <button class="basket__close" type="button" data-basket-close aria-label="Close the basket"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button></div>
+    <div class="basket__body">
+      <div class="basket__empty" data-basket-empty><p>Your basket is empty. Term places, holiday courses, mock exams and paper packs are in the shop.</p><a class="btn btn--secondary" href="shop.html">See the shop</a></div>
+      <ul class="lines" data-basket-lines></ul>
+    </div>
+    <div class="basket__foot" data-basket-foot hidden>
+      <p class="total"><span>Total<small>No payment is taken online yet</small></span><span data-basket-total>£0.00</span></p>
+      <a class="btn btn--secondary" href="checkout.html" data-checkout-link>Go to checkout</a>
+    </div>
+  </dialog>
+</header>
+
+<main id="top">
+  <section class="hero hero--place" data-enter aria-labelledby="hero-h">
+    <img src="assets/img/room-1200.webp" srcset="assets/img/room-1600.webp 1600w, assets/img/room-1200.webp 1200w, assets/img/room-780.webp 780w" sizes="(max-width: 639px) 900px, 100vw" width="1200" height="670" alt="An empty, sunlit classroom with grouped tables, a whiteboard of simple shapes, bookshelves and coats on hooks." data-source="illustration" data-subject="The empty classroom from the door: small tables in groups of four, a whiteboard with only coloured shapes on it, low bookshelves, plants, coats on hooks, afternoon light." class="hero__bg" data-phone-fill style="--ly-pos: 50% 55%" fetchpriority="high">
+    <div class="wrap"><div class="hero-text">
+      <div class="hero__text">
+        <h1 id="hero-h">11+ tutoring places, courses and papers</h1>
+        <p class="hero__lead">Add what your child needs to the basket, from paper packs at <span data-assumed>£24.95</span> to a full term place.</p>
+        <div class="btn-row"><a class="btn btn--primary" href="index.html#book">Book a free assessment<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a></div>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="section" id="terms" aria-labelledby="terms-h">
+    <div class="wrap">
+      <div class="head-row">
+        <h2 id="terms-h">Term places</h2>
+        <p>A term is <span data-assumed>12 weekly two-hour classes</span>. We confirm each place after the free assessment, before any payment is taken.</p>
+      </div>
+      <div class="grid goods-grid" style="margin-top: var(--s-7)">
+        <article class="card goods glass m-nolift span-4">
+          <div class="goods__media"><img src="assets/img/year3-1200.webp" srcset="assets/img/year3-1600.webp 1600w, assets/img/year3-1200.webp 1200w, assets/img/year3-780.webp 780w" sizes="(max-width: 1023px) 100vw, 420px" width="1200" height="1200" alt="A young child lines up coloured fraction bars while a tutor points to one piece." data-source="illustration" data-subject="A Year 3 child (age 7) building fractions with coloured fraction bars on a table, a tutor's hand pointing to one piece." loading="lazy"></div>
+          <div class="goods__body">
+            <h3 class="goods__name">Year 3 term place</h3>
+            <p class="goods__line" data-assumed>Maths, English, first puzzles</p>
+            <div class="goods__foot"><span class="goods__price" data-assumed>£396</span>
+              <button class="btn btn--secondary add" type="button" data-add="y3-term" aria-label="Add Year 3 term place to the basket">Add to basket</button></div>
+          </div>
+        </article>
+        <article class="card goods glass m-nolift span-4">
+          <div class="goods__media"><img src="assets/img/year4-1200.webp" srcset="assets/img/year4-1600.webp 1600w, assets/img/year4-1200.webp 1200w, assets/img/year4-780.webp 780w" sizes="(max-width: 1023px) 100vw, 420px" width="1200" height="1200" alt="A child reads a chapter book aloud to a tutor on a small sofa." data-source="illustration" data-subject="A Year 4 child (age 8) reading a picture-free chapter book aloud to a tutor on a small sofa, both relaxed." loading="lazy"></div>
+          <div class="goods__body">
+            <h3 class="goods__name">Year 4 term place</h3>
+            <p class="goods__line" data-assumed>All four 11+ subjects</p>
+            <div class="goods__foot"><span class="goods__price" data-assumed>£432</span>
+              <button class="btn btn--secondary add" type="button" data-add="y4-term" aria-label="Add Year 4 term place to the basket">Add to basket</button></div>
+          </div>
+        </article>
+        <article class="card goods glass m-nolift span-4">
+          <div class="goods__media"><img src="assets/img/year5-1200.webp" srcset="assets/img/year5-1600.webp 1600w, assets/img/year5-1200.webp 1200w, assets/img/year5-780.webp 780w" sizes="(max-width: 1023px) 100vw, 420px" width="1200" height="1200" alt="A child works through a practice paper at a desk beside a small clock." data-source="illustration" data-subject="A Year 5 child (age 9 to 10) working through a timed practice paper at a desk, a simple analogue clock with no numbers on the table." loading="lazy"></div>
+          <div class="goods__body">
+            <h3 class="goods__name">Year 5 term place</h3>
+            <p class="goods__line" data-assumed>Timed GL and CEM papers</p>
+            <div class="goods__foot"><span class="goods__price" data-assumed>£474</span>
+              <button class="btn btn--secondary add" type="button" data-add="y5-term" aria-label="Add Year 5 term place to the basket">Add to basket</button></div>
+          </div>
+        </article>
+      </div>
+      <p class="toast" role="status" data-add-note></p>
+    </div>
+  </section>
+
+  <section class="section" id="courses" aria-labelledby="courses-h">
+    <div class="wrap">
+      <div class="head-row">
+        <h2 id="courses-h">Holiday courses and mock exams</h2>
+        <p>Courses run in the school holidays, <span data-assumed>mornings, 9:30 to 12:30</span>. Mocks are marked, with written feedback.</p>
+      </div>
+      <div class="grid grid--top" style="margin-top: var(--s-7)">
+        <ul class="rows rows--shop span-6">
+          <li><span class="rows__name">Easter 11+ course</span><p data-assumed>Four mornings, Years 4 and 5</p><span class="rows__value" data-assumed>£168</span><button class="btn btn--secondary add" type="button" data-add="easter" aria-label="Add Easter 11+ course to the basket">Add to basket</button></li>
+          <li><span class="rows__name">Summer 11+ course</span><p data-assumed>Five mornings, Year 5</p><span class="rows__value" data-assumed>£214.50</span><button class="btn btn--secondary add" type="button" data-add="summer" aria-label="Add Summer 11+ course to the basket">Add to basket</button></li>
+          <li><span class="rows__name">GL-style mock exam</span><p data-assumed>Two papers, one morning</p><span class="rows__value" data-assumed>£38.50</span><button class="btn btn--secondary add" type="button" data-add="mock-gl" aria-label="Add GL-style mock exam to the basket">Add to basket</button></li>
+          <li><span class="rows__name">CEM-style mock exam</span><p data-assumed>Two papers, one morning</p><span class="rows__value" data-assumed>£38.50</span><button class="btn btn--secondary add" type="button" data-add="mock-cem" aria-label="Add CEM-style mock exam to the basket">Add to basket</button></li>
+        </ul>
+        <figure class="pl-photo pl-photo--end span-6 start-7" style="--pl-r: 1.3333"><img src="assets/img/mock-exam-1200.webp" srcset="assets/img/mock-exam-1600.webp 1600w, assets/img/mock-exam-1200.webp 1200w, assets/img/mock-exam-780.webp 780w" sizes="(max-width: 639px) 1600px, (max-width: 1023px) 100vw, 800px" width="1200" height="670" alt="Rows of children sit a quiet mock exam at single desks while a tutor stands at the side." data-source="illustration" data-subject="A quiet room of single desks in rows, children sitting a mock exam with heads down, a tutor standing at the side, a plain wall clock with no numbers." loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="papers" aria-labelledby="papers-h">
+    <div class="wrap grid grid--top">
+      <div class="span-6">
+        <div class="section-head"><h2 id="papers-h">11+ paper packs</h2><p>Printed packs of <span data-assumed>ten papers with answers</span>, to collect from the centre.</p></div>
+        <div class="grid goods-grid goods-grid--two">
+        <article class="card goods glass m-nolift span-6">
+          <div class="goods__media"><img src="assets/img/english-1200.webp" srcset="assets/img/english-1600.webp 1600w, assets/img/english-1200.webp 1200w, assets/img/english-780.webp 780w" sizes="(max-width: 1023px) 100vw, 420px" width="1200" height="1490" alt="A child's hand writes with a pencil in a lined exercise book beside a stack of books." data-source="illustration" data-subject="Close view of a child's hand writing in a lined exercise book with a pencil, a short stack of books beside it; the writing is only wavy lines, never letters." loading="lazy"></div>
+          <div class="goods__body">
+            <h3 class="goods__name">English and maths pack</h3>
+            <p class="goods__line" data-assumed>Ten papers, answers and marking guide</p>
+            <div class="goods__foot"><span class="goods__price" data-assumed>£24.95</span>
+              <button class="btn btn--secondary add" type="button" data-add="pack-em" aria-label="Add English and maths pack to the basket">Add to basket</button></div>
+          </div>
+        </article>
+        <article class="card goods glass m-nolift span-6">
+          <div class="goods__media"><img src="assets/img/non-verbal-reasoning-1200.webp" srcset="assets/img/non-verbal-reasoning-1600.webp 1600w, assets/img/non-verbal-reasoning-1200.webp 1200w, assets/img/non-verbal-reasoning-780.webp 780w" sizes="(max-width: 1023px) 100vw, 420px" width="1200" height="1200" alt="A child arranges coloured triangles, squares and circles into a sequence on a table." data-source="illustration" data-subject="A child arranging coloured geometric tiles (triangles, squares, circles) into a repeating sequence on a table, seen from above at an angle." loading="lazy"></div>
+          <div class="goods__body">
+            <h3 class="goods__name">Reasoning pack</h3>
+            <p class="goods__line" data-assumed>Verbal and non-verbal, ten papers</p>
+            <div class="goods__foot"><span class="goods__price" data-assumed>£24.95</span>
+              <button class="btn btn--secondary add" type="button" data-add="pack-vr" aria-label="Add Reasoning pack to the basket">Add to basket</button></div>
+          </div>
+        </article>
+        </div>
+      </div>
+      <figure class="develop span-6 start-7" data-moment="picture-develops"><img src="assets/img/maths-1200.webp" srcset="assets/img/maths-1600.webp 1600w, assets/img/maths-1200.webp 1200w, assets/img/maths-780.webp 780w" sizes="(max-width: 1023px) 100vw, 800px" width="1200" height="1490" alt="A child's hands hold a ruler and protractor on squared paper, with coloured cubes nearby." data-source="illustration" data-subject="Close view of a child's hands using a ruler and protractor on squared paper, with a few coloured cubes nearby." loading="lazy"></figure>
+    </div>
+  </section>
+</main>
+
+<footer class="footer closing footer--visit ground-brand" id="contact" aria-labelledby="close-h">
+  <div class="wrap">
+    <div class="closing__cta close--word">
+      <div class="section-head--split">
+        <div><h2 id="close-h">Start with a free assessment</h2><p class="t-lead">English, maths and reasoning, with feedback for you the same week.</p></div>
+        <a class="btn btn--primary" href="index.html#book">Book a free assessment<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a>
+      </div>
+    </div>
+    <div class="closing__links">
+      <div class="grid">
+        <div class="span-6 stack-4">
+          <address class="footer__address" data-assumed>Caversham<br>Reading</address>
+          <p><a class="link" href="https://www.openstreetmap.org/search?query=Caversham%20Reading">See the area</a></p>
+        </div>
+        <div class="span-6 start-7 stack-4">
+          <h3>Opening hours</h3>
+          <dl class="hours" data-tz="Europe/London" data-assumed><dt data-days="mon-fri">Mon to Fri</dt><dd>15:45 to 19:30</dd><dt data-days="sat">Sat</dt><dd>9:00 to 13:30</dd><dt data-days="sun">Sun</dt><dd>Closed</dd></dl>
+        </div>
+      </div>
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="index.html#classes">Classes</a><a href="index.html#subjects">Subjects</a><a href="index.html#visit">Visit</a><a href="shop.html" aria-current="page">Shop</a><a href="checkout.html">Checkout</a>
+      </nav>
+      <div class="footer__legal">
+        <span>&copy; 2026 Tillmore</span>
+        <a href="privacy.html">Privacy</a>
+        <details class="credits"><summary>Illustrations made with Google Gemini</summary><p>Every illustration on this site was generated with Google Gemini for this draft, in place of photographs of the centre.</p></details>
+      </div>
+    </div>
+  </div>
+</footer>
+<nav class="actionbar" aria-label="Quick actions">
+  <a class="btn btn--primary" href="index.html#book">Book a free assessment</a>
+</nav>
+<script src="cart.js" defer></script>
+<script type="module" src="assets/system.js"></script>
+<script type="module" src="assets/motion/motion.js"></script>
+<script type="module" src="assets/layout/layout.js"></script>
+</body>
+</html>

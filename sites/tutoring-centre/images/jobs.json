@@ -1,0 +1,72 @@
+[
+  {
+    "id": "hero",
+    "prompt": "A bright small classroom: a tutor crouches beside a round table where three children work on practice papers with pencils, one child raising a hand with a question; bookshelves and a window behind. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "16:9"
+  },
+  {
+    "id": "centre-door",
+    "prompt": "The front of a small tutoring centre on a quiet British high street: a painted door and a big window with books and plants inside, a parent and child walking up to it. No sign text. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "4:5"
+  },
+  {
+    "id": "room",
+    "prompt": "The empty classroom from the door: small tables in groups of four, a whiteboard with only coloured shapes on it, low bookshelves, plants, coats on hooks, afternoon light. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "16:9"
+  },
+  {
+    "id": "year3",
+    "prompt": "A Year 3 child (age 7) building fractions with coloured fraction bars on a table, a tutor's hand pointing to one piece. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "1:1"
+  },
+  {
+    "id": "year4",
+    "prompt": "A Year 4 child (age 8) reading a picture-free chapter book aloud to a tutor on a small sofa, both relaxed. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "1:1"
+  },
+  {
+    "id": "year5",
+    "prompt": "A Year 5 child (age 9 to 10) working through a timed practice paper at a desk, a simple analogue clock with no numbers on the table. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "1:1"
+  },
+  {
+    "id": "maths",
+    "prompt": "Close view of a child's hands using a ruler and protractor on squared paper, with a few coloured cubes nearby. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "4:5"
+  },
+  {
+    "id": "english",
+    "prompt": "Close view of a child's hand writing in a lined exercise book with a pencil, a short stack of books beside it; the writing is only wavy lines, never letters. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "4:5"
+  },
+  {
+    "id": "verbal-reasoning",
+    "prompt": "Two children and a tutor at a table, talking through a puzzle card together, one child explaining with a gesture; the card shows only simple shapes. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "1:1"
+  },
+  {
+    "id": "non-verbal-reasoning",
+    "prompt": "A child arranging coloured geometric tiles (triangles, squares, circles) into a repeating sequence on a table, seen from above at an angle. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "1:1"
+  },
+  {
+    "id": "mock-exam",
+    "prompt": "A quiet room of single desks in rows, children sitting a mock exam with heads down, a tutor standing at the side, a plain wall clock with no numbers. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "16:9"
+  },
+  {
+    "id": "reading-corner",
+    "prompt": "A cosy reading corner: low shelves of colourful book spines with no text, two floor cushions, a lamp and a plant. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "4:5"
+  },
+  {
+    "id": "parent-feedback",
+    "prompt": "A tutor at a small table showing a parent a folder of a child's work with simple bar charts and no text, the child sitting beside the parent. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "1:1"
+  },
+  {
+    "id": "desk-detail",
+    "prompt": "A tidy desk detail: sharpened pencils in a pot, an eraser, a sharpener and a short stack of practice papers covered in only grey lines. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "1:1"
+  }
+]

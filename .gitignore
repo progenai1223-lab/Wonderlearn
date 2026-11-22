@@ -1,0 +1,23 @@
+# Dependencies (reinstall with npm install in .claude/skills/generate-images/scripts)
+node_modules/
+
+# Design-skill check state: headless browser profiles, gate rounds, histories
+.taste-skill/
+
+# Screenshots from the checks
+sites/*/shots/
+
+# Raw image downloads and the archived Gamma set (optimised WebP files in assets/img are kept)
+sites/*/images/raw/
+sites/*/images/gamma-archive/
+
+# Secrets: never commit keys (the Gemini key lives in %LOCALAPPDATA%, outside this project)
+*.key
+.env
+.env.*
+.claude/settings.local.json
+
+# OS and editor files
+Thumbs.db
+desktop.ini
+.DS_Store

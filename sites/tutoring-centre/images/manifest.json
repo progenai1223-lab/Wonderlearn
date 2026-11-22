@@ -1,0 +1,444 @@
+[
+  {
+    "id": "hero",
+    "section": "hero",
+    "role": "hero",
+    "aspect": 1.792,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/hero-1440.webp",
+        "width": 1440,
+        "height": 804,
+        "kib": 50
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/hero-780.webp",
+        "width": 780,
+        "height": 435,
+        "kib": 24
+      }
+    ],
+    "alt": "A tutor crouches beside a round table where three children work on practice papers, one with a hand raised.",
+    "subject": "A bright small classroom: a tutor crouches beside a round table where three children work on practice papers with pencils, one child raising a hand with a question; bookshelves and a window behind.",
+    "prompt": "A bright small classroom: a tutor crouches beside a round table where three children work on practice papers with pencils, one child raising a hand with a question; bookshelves and a window behind. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "scene",
+    "source": "generated",
+    "notes": "Accepted first time. Glassmorphism style. Model gemini-nano-banana-2.1, aspect 16:9."
+  },
+  {
+    "id": "centre-door",
+    "section": "visit",
+    "role": "image",
+    "aspect": 0.806,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/centre-door-1600.webp",
+        "width": 1600,
+        "height": 1986,
+        "kib": 81
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/centre-door-1200.webp",
+        "width": 1200,
+        "height": 1490,
+        "kib": 58
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/centre-door-780.webp",
+        "width": 780,
+        "height": 968,
+        "kib": 36
+      }
+    ],
+    "alt": "A parent and child walk past the green door and big window of a small high-street tutoring centre.",
+    "subject": "The front of a small tutoring centre on a quiet British high street: a painted door and a big window with books and plants inside, a parent and child walking up to it. No sign text.",
+    "prompt": "The front of a small tutoring centre on a quiet British high street: a painted door and a big window with books and plants inside, a parent and child walking up to it. No sign text. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "illustration",
+    "source": "generated",
+    "notes": "Accepted first time. The figures are drawn flatter than in the rest of the set and the walking adult has almost no facial features, a stylised look rather than a fault. Model gemini-nano-banana-2.1, aspect 4:5."
+  },
+  {
+    "id": "room",
+    "section": "the place",
+    "role": "image",
+    "aspect": 1.792,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/room-1600.webp",
+        "width": 1600,
+        "height": 893,
+        "kib": 56
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/room-1200.webp",
+        "width": 1200,
+        "height": 670,
+        "kib": 38
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/room-780.webp",
+        "width": 780,
+        "height": 435,
+        "kib": 23
+      }
+    ],
+    "alt": "An empty, sunlit classroom with grouped tables, a whiteboard of simple shapes, bookshelves and coats on hooks.",
+    "subject": "The empty classroom from the door: small tables in groups of four, a whiteboard with only coloured shapes on it, low bookshelves, plants, coats on hooks, afternoon light.",
+    "prompt": "An empty classroom seen from the open door, with no people in it at all: small tables pushed together in groups of four with chairs tucked in, a whiteboard showing only a few coloured circles and triangles, low bookshelves, potted plants, coats hanging on hooks, warm afternoon light. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "illustration",
+    "source": "generated",
+    "notes": "Retried once: the first version had children in it, but the shot asks for an empty room. The retry prompt asked for no people. The hooks are simple J shapes, not letters. Model gemini-nano-banana-2.1, aspect 16:9."
+  },
+  {
+    "id": "year3",
+    "section": "programme, Year 3",
+    "role": "image",
+    "aspect": 1,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/year3-1600.webp",
+        "width": 1600,
+        "height": 1600,
+        "kib": 74
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/year3-1200.webp",
+        "width": 1200,
+        "height": 1200,
+        "kib": 52
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/year3-780.webp",
+        "width": 780,
+        "height": 780,
+        "kib": 31
+      }
+    ],
+    "alt": "A young child lines up coloured fraction bars while a tutor points to one piece.",
+    "subject": "A Year 3 child (age 7) building fractions with coloured fraction bars on a table, a tutor's hand pointing to one piece.",
+    "prompt": "A Year 3 child (age 7) building fractions with coloured fraction bars on a table, a tutor's hand pointing to one piece. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "scene",
+    "source": "generated",
+    "notes": "Accepted first time. The fraction bars are plain coloured bars with no markings. Model gemini-nano-banana-2.1, aspect 1:1."
+  },
+  {
+    "id": "year4",
+    "section": "programme, Year 4",
+    "role": "image",
+    "aspect": 1,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/year4-1600.webp",
+        "width": 1600,
+        "height": 1600,
+        "kib": 91
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/year4-1200.webp",
+        "width": 1200,
+        "height": 1200,
+        "kib": 60
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/year4-780.webp",
+        "width": 780,
+        "height": 780,
+        "kib": 33
+      }
+    ],
+    "alt": "A child reads a chapter book aloud to a tutor on a small sofa.",
+    "subject": "A Year 4 child (age 8) reading a picture-free chapter book aloud to a tutor on a small sofa, both relaxed.",
+    "prompt": "A Year 4 child (age 8) reading a picture-free chapter book aloud to a tutor on a small sofa, both relaxed. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "scene",
+    "source": "generated",
+    "notes": "Accepted first time. Other children appear in the background behind frosted panels. Model gemini-nano-banana-2.1, aspect 1:1."
+  },
+  {
+    "id": "year5",
+    "section": "programme, Year 5",
+    "role": "image",
+    "aspect": 1,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/year5-1600.webp",
+        "width": 1600,
+        "height": 1600,
+        "kib": 87
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/year5-1200.webp",
+        "width": 1200,
+        "height": 1200,
+        "kib": 63
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/year5-780.webp",
+        "width": 780,
+        "height": 780,
+        "kib": 39
+      }
+    ],
+    "alt": "A child works through a practice paper at a desk beside a small clock.",
+    "subject": "A Year 5 child (age 9 to 10) working through a timed practice paper at a desk, a simple analogue clock with no numbers on the table.",
+    "prompt": "A Year 5 child (age 9 to 10) working through a timed practice paper at a desk, pencil in hand; the paper shows only rows of plain grey lines and small empty boxes, and a simple analogue clock with hands but a completely blank face sits on the table. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "scene",
+    "source": "generated",
+    "notes": "Retried once: the first version had marks on the paper that looked like \">\". The retry paper shows only grey lines and empty boxes, and the clock has ticks but no numbers. Model gemini-nano-banana-2.1, aspect 1:1."
+  },
+  {
+    "id": "maths",
+    "section": "subjects, maths",
+    "role": "image",
+    "aspect": 0.806,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/maths-1600.webp",
+        "width": 1600,
+        "height": 1986,
+        "kib": 108
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/maths-1200.webp",
+        "width": 1200,
+        "height": 1490,
+        "kib": 71
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/maths-780.webp",
+        "width": 780,
+        "height": 968,
+        "kib": 39
+      }
+    ],
+    "alt": "A child's hands hold a ruler and protractor on squared paper, with coloured cubes nearby.",
+    "subject": "Close view of a child's hands using a ruler and protractor on squared paper, with a few coloured cubes nearby.",
+    "prompt": "Close view of a child's hands using a ruler and protractor on squared paper, with a few coloured cubes nearby. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "illustration",
+    "source": "generated",
+    "notes": "Accepted first time. Protractor and ruler have tick marks only, no numbers. Model gemini-nano-banana-2.1, aspect 4:5."
+  },
+  {
+    "id": "english",
+    "section": "subjects, English",
+    "role": "image",
+    "aspect": 0.806,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/english-1600.webp",
+        "width": 1600,
+        "height": 1986,
+        "kib": 94
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/english-1200.webp",
+        "width": 1200,
+        "height": 1490,
+        "kib": 65
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/english-780.webp",
+        "width": 780,
+        "height": 968,
+        "kib": 37
+      }
+    ],
+    "alt": "A child's hand writes with a pencil in a lined exercise book beside a stack of books.",
+    "subject": "Close view of a child's hand writing in a lined exercise book with a pencil, a short stack of books beside it; the writing is only wavy lines, never letters.",
+    "prompt": "Close view of a child's hand writing in a lined exercise book with a pencil, a short stack of closed books beside it; the writing on the page is only smooth, gentle wavy lines with no loops, no letters and no symbols. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "illustration",
+    "source": "generated",
+    "notes": "Retried once: the first version had looped scribbles that read like cursive l and e. The retry shows only smooth wavy lines. Model gemini-nano-banana-2.1, aspect 4:5."
+  },
+  {
+    "id": "verbal-reasoning",
+    "section": "subjects, verbal reasoning",
+    "role": "image",
+    "aspect": 1,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/verbal-reasoning-1600.webp",
+        "width": 1600,
+        "height": 1600,
+        "kib": 77
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/verbal-reasoning-1200.webp",
+        "width": 1200,
+        "height": 1200,
+        "kib": 55
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/verbal-reasoning-780.webp",
+        "width": 780,
+        "height": 780,
+        "kib": 33
+      }
+    ],
+    "alt": "Two children and a tutor talk through a puzzle card of coloured shapes at a table.",
+    "subject": "Two children and a tutor at a table, talking through a puzzle card together, one child explaining with a gesture; the card shows only simple shapes.",
+    "prompt": "Two children and a tutor at a table, talking through a puzzle card together, one child explaining with a gesture; the card shows only simple shapes. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "scene",
+    "source": "generated",
+    "notes": "Accepted first time. Model gemini-nano-banana-2.1, aspect 1:1."
+  },
+  {
+    "id": "non-verbal-reasoning",
+    "section": "subjects, non-verbal reasoning",
+    "role": "image",
+    "aspect": 1,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/non-verbal-reasoning-1600.webp",
+        "width": 1600,
+        "height": 1600,
+        "kib": 86
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/non-verbal-reasoning-1200.webp",
+        "width": 1200,
+        "height": 1200,
+        "kib": 60
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/non-verbal-reasoning-780.webp",
+        "width": 780,
+        "height": 780,
+        "kib": 35
+      }
+    ],
+    "alt": "A child arranges coloured triangles, squares and circles into a sequence on a table.",
+    "subject": "A child arranging coloured geometric tiles (triangles, squares, circles) into a repeating sequence on a table, seen from above at an angle.",
+    "prompt": "A child arranging coloured geometric tiles (triangles, squares, circles) into a repeating sequence on a table, seen from above at an angle. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "illustration",
+    "source": "generated",
+    "notes": "Accepted first time. Seen at a gentle angle rather than from directly above, and rendered a little more three-dimensional than the rest of the set. Model gemini-nano-banana-2.1, aspect 1:1."
+  },
+  {
+    "id": "mock-exam",
+    "section": "mock exams",
+    "role": "image",
+    "aspect": 1.792,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/mock-exam-1600.webp",
+        "width": 1600,
+        "height": 893,
+        "kib": 68
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/mock-exam-1200.webp",
+        "width": 1200,
+        "height": 670,
+        "kib": 48
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/mock-exam-780.webp",
+        "width": 780,
+        "height": 435,
+        "kib": 28
+      }
+    ],
+    "alt": "Rows of children sit a quiet mock exam at single desks while a tutor stands at the side.",
+    "subject": "A quiet room of single desks in rows, children sitting a mock exam with heads down, a tutor standing at the side, a plain wall clock with no numbers.",
+    "prompt": "A quiet room of single desks in rows, children sitting a mock exam with heads down, a tutor standing at the side, a plain wall clock with no numbers. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "scene",
+    "source": "generated",
+    "notes": "Accepted first time. The noticeboard papers carry only grey lines and the wall clock has no numbers. Model gemini-nano-banana-2.1, aspect 16:9."
+  },
+  {
+    "id": "reading-corner",
+    "section": "the place",
+    "role": "image",
+    "aspect": 0.806,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/reading-corner-1600.webp",
+        "width": 1600,
+        "height": 1986,
+        "kib": 171
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/reading-corner-1200.webp",
+        "width": 1200,
+        "height": 1490,
+        "kib": 116
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/reading-corner-780.webp",
+        "width": 780,
+        "height": 968,
+        "kib": 63
+      }
+    ],
+    "alt": "Children read on floor cushions in a cosy corner of low bookshelves, a lamp and a trailing plant.",
+    "subject": "A cosy reading corner: low shelves of colourful book spines with no text, two floor cushions, a lamp and a plant.",
+    "prompt": "A cosy reading corner: low shelves of colourful book spines with no text, two floor cushions, a lamp and a plant. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "illustration",
+    "source": "generated",
+    "notes": "Accepted first time. The shot named no people, but Gemini added four children reading; the subject still reads clearly. Open book pages show fine grey lines, nothing legible. Model gemini-nano-banana-2.1, aspect 4:5."
+  },
+  {
+    "id": "parent-feedback",
+    "section": "free assessment",
+    "role": "image",
+    "aspect": 1,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/parent-feedback-1600.webp",
+        "width": 1600,
+        "height": 1600,
+        "kib": 68
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/parent-feedback-1200.webp",
+        "width": 1200,
+        "height": 1200,
+        "kib": 49
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/parent-feedback-780.webp",
+        "width": 780,
+        "height": 780,
+        "kib": 31
+      }
+    ],
+    "alt": "A tutor shows a parent a folder of their child's work with simple bar charts, the child sitting alongside.",
+    "subject": "A tutor at a small table showing a parent a folder of a child's work with simple bar charts and no text, the child sitting beside the parent.",
+    "prompt": "A tutor at a small table showing a parent a folder of a child's work with simple bar charts and no text, the child sitting beside the parent. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "scene",
+    "source": "generated",
+    "notes": "Accepted first time. Model gemini-nano-banana-2.1, aspect 1:1."
+  },
+  {
+    "id": "desk-detail",
+    "section": "detail",
+    "role": "image",
+    "aspect": 1,
+    "files": [
+      {
+        "file": "sites/tutoring-centre/assets/img/desk-detail-1600.webp",
+        "width": 1600,
+        "height": 1600,
+        "kib": 43
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/desk-detail-1200.webp",
+        "width": 1200,
+        "height": 1200,
+        "kib": 30
+      },
+      {
+        "file": "sites/tutoring-centre/assets/img/desk-detail-780.webp",
+        "width": 780,
+        "height": 780,
+        "kib": 18
+      }
+    ],
+    "alt": "Sharpened pencils in a pot, an eraser, a sharpener and a stack of practice papers on a desk.",
+    "subject": "A tidy desk detail: sharpened pencils in a pot, an eraser, a sharpener and a short stack of practice papers covered in only grey lines.",
+    "prompt": "A tidy desk detail in a quiet room with a plain pale wall behind and no board or chalkboard: sharpened pencils in a pot, an eraser, a sharpener and a short stack of practice papers covered in only plain grey lines. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "type": "illustration",
+    "source": "generated",
+    "notes": "Retried once: the first version had a chalkboard with scribbles that looked like writing. The retry has a plain wall; background figures are soft and simplified. Model gemini-nano-banana-2.1, aspect 1:1."
+  }
+]

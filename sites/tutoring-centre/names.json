@@ -1,0 +1,10 @@
+{
+  "name": "Tillmore",
+  "trade": "tutoring centre (11+ preparation, Years 3 to 5)",
+  "searched": true,
+  "queries": [
+    { "query": "\"Tillmore\" tutoring", "result": "no web results" },
+    { "query": "Tillmore tutors tillmore.co.uk", "result": "10 results, all other tutoring firms (Tailored Tutors, MyTutor, Tutorful, Taylor Tuition and others); none named Tillmore, no famous person of that name" }
+  ],
+  "verdict": "kept: no tutoring business or famous person named Tillmore in the first 10 results"
+}
