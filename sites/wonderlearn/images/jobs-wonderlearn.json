@@ -1,0 +1,22 @@
+[
+  {
+    "id": "online-lesson",
+    "prompt": "A child of about 9 at a kitchen table at home takes part in an online English lesson on an open laptop, pencil in hand and an exercise book open beside it; the laptop screen shows only soft blurred shapes of a teacher and a small grid of other children, never readable; the child and laptop sit in the right half of the frame and the left half is a calm, plain pale wall with soft daylight. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "16:9"
+  },
+  {
+    "id": "church-hall",
+    "prompt": "A bright church hall used as a classroom on a weekday afternoon: tall arched windows, a pale wooden floor, rows of small tables with chairs, exercise books and pencil pots set out ready, a few coats on chairs, no people, no crosses or religious symbols in view. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "16:9"
+  },
+  {
+    "id": "gcse-revision",
+    "prompt": "A teenager of about 15 in a plain hoodie revising English at a desk by a window: a thick novel open face down, highlighted revision notes of only wavy lines and coloured bands, sticky tabs and a pen in hand, focused, an older student than the rest of the set. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "1:1"
+  },
+  {
+    "id": "online-secondary",
+    "prompt": "A secondary-school student of about 13 at a desk in their bedroom in an evening online English lesson on a laptop, headphones on, writing notes in a lined pad of only wavy lines; the laptop screen shows only a soft blurred teacher shape, never readable; a warm desk lamp and a bookshelf behind. Modern artistic digital illustration with a refined glassmorphism look: frosted translucent glass panels and soft layered depth framing the scene, clean rounded forms, crisp gentle highlights and soft shadows, natural daylight, a restrained palette of soft white, sage green, warm ochre, terracotta and soft navy with no violet, a modern British tutoring classroom, children aged 7 to 10 in everyday clothes with no logos, a diverse group, calm and focused mood. No text, no letters, no numbers, no logos, no watermark, no signage, no captions. Uncluttered composition with calm space around the subject.",
+    "aspect": "4:5"
+  }
+]

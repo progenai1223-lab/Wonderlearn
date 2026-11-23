@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en-GB" data-type="service" data-radius="soft" data-buttons="solid" data-motion>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wonderlearn shop: term places, exam labs and workbooks</title>
+<meta name="description" content="Pay for Wonderlearn term places for Years 3 to 11, Year 5 exam labs and creative writing masterclasses, the comprehension short course and £4 workbooks.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Wonderlearn shop: term places, exam labs and workbooks">
+<meta property="og:description" content="Term places, Year 5 exam labs, masterclasses and English workbooks from Wonderlearn.">
+<meta property="og:image" content="share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#ecebe7">
+<!-- <link rel="canonical" href="https://wonderlearn.co.uk/shop.html"> : add once this build replaces the live site -->
+<meta name="site-kind" content="other">
+<meta name="page-type" content="service">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@75..100,400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/system.css">
+<link rel="stylesheet" href="assets/ui/cards.css">
+<link rel="stylesheet" href="assets/motion/motion.css">
+<link rel="stylesheet" href="assets/layout/layout.css">
+<style>
+:root {
+  --p-bg: #ecebe7; --p-surface: #e1dfd9; --p-ink: #38450f; --p-muted: #5a6537;
+  --p-accent: #38450f; --p-accent-ink: #ecebe7; --p-action: #38450f; --p-action-ink: #ecebe7;
+  --p-inv-bg: #38450f; --p-inv-surface: #435020; --p-inv-ink: #ecebe7; --p-inv-muted: #bbbfaf;
+  --p-inv-accent: #ecebe7; --p-inv-accent-ink: #38450f; --p-inv-action: #ecebe7; --p-inv-action-ink: #38450f;
+  --font-display: "Instrument Sans", system-ui, sans-serif;
+  --font-text: "Instrument Sans", system-ui, sans-serif;
+  --display-weight: 400;
+  --display-tracking: -0.02em;
+}
+</style>
+<link rel="stylesheet" href="site.css">
+<script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
+<script>document.documentElement.classList.add('mo-js');setTimeout(()=>document.documentElement.classList.add('mo-safe'),2500)</script>
+<link rel="modulepreload" href="assets/moments/moments.js">
+<link rel="modulepreload" href="assets/moments/lib.js">
+<link rel="modulepreload" href="assets/moments/picture-develops/moment.js">
+</head>
+<body>
+<!-- shop.html: a sub-page of index.html (service). Same palette, pairing, radius, nav, footer, buttons and glass. Hero: photo, data-calm left, as on index. Moment: picture-develops in #labs. Every price is from the client's own shop and timetable. Exam labs 01 (7 Nov 2026) and 02 (21 Nov 2026) have passed and are left out. -->
+<header class="nav nav--split">
+  <div class="wrap nav__bar">
+    <a class="skip-link" href="#top">Skip to content</a>
+    <a class="nav__logo" href="index.html"><span class="mark" data-mark="leaf" aria-hidden="true"></span>Wonderlearn</a>
+    <nav class="nav__links" aria-label="Main">
+      <div class="nav__item"><a class="nav__link" href="index.html#eleven">11+</a></div>
+      <div class="nav__item"><a class="nav__link" href="index.html#gcse">GCSE</a></div>
+      <div class="nav__item"><a class="nav__link" href="index.html#wallington">Wallington</a></div>
+      <div class="nav__item"><a class="nav__link" href="shop.html" aria-current="page">Shop</a></div>
+    </nav>
+    <div class="nav__actions">
+      <button class="basket-btn" type="button" data-basket-open aria-label="Basket" aria-haspopup="dialog" aria-controls="basket">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 6h14l-1.2 10.2a1 1 0 0 1-1 .8H5.2a1 1 0 0 1-1-.8L3 6z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M7 8V5.5a3 3 0 0 1 6 0V8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span class="basket-btn__label">Basket</span><span class="basket-btn__count" data-basket-count data-empty>0</span>
+      </button>
+      <a class="btn btn--primary" href="#terms">Book a term place</a>
+    </div>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-label="Menu">
+      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 13h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <dialog class="basket glass" id="basket" aria-labelledby="basket-h">
+    <div class="basket__head"><h2 id="basket-h">Your basket</h2>
+      <button class="basket__close" type="button" data-basket-close aria-label="Close the basket"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button></div>
+    <div class="basket__body">
+      <div class="basket__empty" data-basket-empty><p>Your basket is empty. Term places, exam labs, masterclasses and workbooks are in the shop.</p><a class="btn btn--secondary" href="shop.html">See the shop</a></div>
+      <ul class="lines" data-basket-lines></ul>
+    </div>
+    <div class="basket__foot" data-basket-foot hidden>
+      <p class="total"><span>Total<small>No payment is taken online yet</small></span><span data-basket-total>£0.00</span></p>
+      <a class="btn btn--secondary" href="checkout.html" data-checkout-link>Go to checkout</a>
+    </div>
+  </dialog>
+</header>
+
+<main id="top">
+  <section class="hero hero--photo" data-enter data-calm="left" aria-labelledby="hero-h">
+    <img class="hero__bg" src="assets/img/room-1600.webp" srcset="assets/img/room-780.webp 780w, assets/img/room-1200.webp 1200w, assets/img/room-1600.webp 1600w" sizes="(max-width: 639px) 170vw, (max-width: 1279px) 140vw, 115vw" width="1600" height="893" alt="An empty, sunlit classroom with grouped tables, a whiteboard of simple shapes, bookshelves and coats on hooks." style="--ly-pos: 62% 50%; --ly-pos-phone: 60% 50%" fetchpriority="high" data-source="illustration" data-subject="an empty classroom set out for a lesson">
+    <div class="wrap"><div class="hero-text">
+      <div class="hero__text">
+        <h1 id="hero-h">English lessons and workbooks</h1>
+        <p class="hero__lead">Pay for a 10-week term place, a Year 5 exam lab or a creative writing masterclass, or buy Wonderlearn's own workbooks at £4 each.</p>
+        <div class="btn-row"><a class="btn btn--primary" href="#terms">Book a term place<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a></div>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="section" id="terms" aria-labelledby="terms-h">
+    <div class="wrap">
+      <div class="head-row">
+        <h2 id="terms-h">Term places for Years 3 to 11</h2>
+        <p>Each term is 10 weekly lessons, paid in full at booking. Places go first come, first served. <a class="link" href="index.html#eleven">See the timetable</a></p>
+      </div>
+      <div class="grid grid--top" style="margin-top: var(--s-7)">
+        <div class="span-4">
+          <p class="t-label">11+, £252 a term</p>
+          <ul class="rows rows--shop rows--compact" style="margin-top: var(--s-3)">
+            <li><span class="rows__name">Year 3, Zoom</span><span class="rows__value">£252</span><button class="btn btn--secondary add" type="button" data-add="y3-online" aria-label="Add a Year 3 Zoom term place to the basket">Add</button></li>
+            <li><span class="rows__name">Year 4, Wallington</span><span class="rows__value">£252</span><button class="btn btn--secondary add" type="button" data-add="y4-wallington" aria-label="Add a Year 4 Wallington term place to the basket">Add</button></li>
+            <li><span class="rows__name">Year 4, Zoom</span><span class="rows__value">£252</span><button class="btn btn--secondary add" type="button" data-add="y4-online" aria-label="Add a Year 4 Zoom term place to the basket">Add</button></li>
+            <li><span class="rows__name">Year 5, Wallington</span><span class="rows__value">£252</span><button class="btn btn--secondary add" type="button" data-add="y5-wallington" aria-label="Add a Year 5 Wallington term place to the basket">Add</button></li>
+            <li><span class="rows__name">Year 5, Zoom</span><span class="rows__value">£252</span><button class="btn btn--secondary add" type="button" data-add="y5-online" aria-label="Add a Year 5 Zoom term place to the basket">Add</button></li>
+          </ul>
+        </div>
+        <div class="span-4">
+          <p class="t-label">GCSE, £306 a term</p>
+          <ul class="rows rows--shop rows--compact" style="margin-top: var(--s-3)">
+            <li><span class="rows__name">Year 7, Zoom</span><span class="rows__value">£306</span><button class="btn btn--secondary add" type="button" data-add="y7-online" aria-label="Add a Year 7 term place to the basket">Add</button></li>
+            <li><span class="rows__name">Year 8, Zoom</span><span class="rows__value">£306</span><button class="btn btn--secondary add" type="button" data-add="y8-online" aria-label="Add a Year 8 term place to the basket">Add</button></li>
+            <li><span class="rows__name">Year 9, Zoom</span><span class="rows__value">£306</span><button class="btn btn--secondary add" type="button" data-add="y9-online" aria-label="Add a Year 9 term place to the basket">Add</button></li>
+            <li><span class="rows__name">Year 10, Zoom</span><span class="rows__value">£306</span><button class="btn btn--secondary add" type="button" data-add="y10-online" aria-label="Add a Year 10 term place to the basket">Add</button></li>
+            <li><span class="rows__name">Year 11, Zoom</span><span class="rows__value">£306</span><button class="btn btn--secondary add" type="button" data-add="y11-online" aria-label="Add a Year 11 term place to the basket">Add</button></li>
+          </ul>
+        </div>
+        <figure class="pl-photo span-4 terms-photo"><img src="assets/img/online-secondary-1200.webp" srcset="assets/img/online-secondary-780.webp 780w, assets/img/online-secondary-1200.webp 1200w, assets/img/online-secondary-1600.webp 1600w" sizes="(max-width: 639px) 200vw, (max-width: 1023px) 100vw, 412px" width="1200" height="1490" alt="A student in headphones writes notes at a lamp-lit desk during an evening online lesson on a laptop." loading="lazy" data-source="illustration" data-subject="an older student in an evening online lesson"></figure>
+      </div>
+      <p class="toast" role="status" data-add-note></p>
+    </div>
+  </section>
+
+  <section class="section" id="labs" aria-labelledby="labs-h">
+    <div class="wrap grid grid--top">
+      <div class="span-6">
+        <div class="section-head">
+          <h2 id="labs-h">Year 5 exam labs and masterclasses</h2>
+          <p>In an exam lab Mrs Watson gives guidance before the paper and on timing during it. Answers and explanations follow.</p>
+        </div>
+        <ul class="rows rows--shop">
+          <li><span class="rows__name">Exam lab 03: Selective Eligibility Test</span><p>Face to face in Wallington, Saturday 16 January 2027, 13:30 to 14:45</p><span class="rows__value">£34</span><button class="btn btn--secondary add" type="button" data-add="lab-03" aria-label="Add exam lab 03 to the basket">Add to basket</button></li>
+          <li><span class="rows__name">Creative writing masterclass</span><p>Online, one Sunday morning a month, average class 25. Book one lesson or a block.</p><span class="rows__value">£34</span><button class="btn btn--secondary add" type="button" data-add="cw-master" aria-label="Add a creative writing masterclass to the basket">Add to basket</button></li>
+        </ul>
+        <p class="t-small labs-note">Paper and mock exam classes, online and face to face, also run through the year. <a class="link" href="mailto:mrswatson@wonderlearn.co.uk?subject=Paper%20and%20mock%20exam%20classes">Ask Mrs Watson for the next dates</a>.</p>
+      </div>
+      <!-- picture-develops: the section's one picture, half the container wide -->
+      <figure class="develop span-6 start-7" data-moment="picture-develops"><img src="assets/img/mock-exam-1200.webp" srcset="assets/img/mock-exam-780.webp 780w, assets/img/mock-exam-1200.webp 1200w, assets/img/mock-exam-1600.webp 1600w" sizes="(max-width: 639px) 300vw, (max-width: 1023px) 100vw, 800px" width="1200" height="670" alt="Rows of children sit a quiet practice exam at single desks while a tutor stands at the side." loading="lazy" data-source="illustration" data-subject="children sitting a practice exam paper"></figure>
+    </div>
+  </section>
+
+  <section class="section" id="downloads" aria-labelledby="downloads-h">
+    <div class="wrap grid grid--top">
+      <div class="span-6">
+        <div class="section-head">
+          <h2 id="downloads-h">Comprehension course and workbooks</h2>
+          <p>Downloads for reading and writing at home, written by Wonderlearn.</p>
+        </div>
+        <ul class="rows rows--shop">
+          <li><span class="rows__name">Short Course: Comprehension</span><p>A 30-minute video and booklet on reading actively, to take in more and find answers faster.</p><span class="rows__value">£7.99</span><button class="btn btn--secondary add" type="button" data-add="sc-comp" aria-label="Add the comprehension short course to the basket">Add to basket</button></li>
+          <li><span class="rows__name">Book 1, Scanning For Speed</span><span class="rows__value">£4</span><button class="btn btn--secondary add" type="button" data-add="wb-scanning" aria-label="Add Scanning For Speed to the basket">Add to basket</button></li>
+          <li><span class="rows__name">Book 1, Summarising Skills</span><p>Foundations of comprehension</p><span class="rows__value">£4</span><button class="btn btn--secondary add" type="button" data-add="wb-summarising" aria-label="Add Summarising Skills to the basket">Add to basket</button></li>
+          <li><span class="rows__name">Book 1, Uplevel Your Writing</span><span class="rows__value">£4</span><button class="btn btn--secondary add" type="button" data-add="wb-uplevel" aria-label="Add Uplevel Your Writing to the basket">Add to basket</button></li>
+          <li><span class="rows__name">Cracking Context, Book 1</span><p>Lower KS2</p><span class="rows__value">£4</span><button class="btn btn--secondary add" type="button" data-add="wb-context-1" aria-label="Add Cracking Context Book 1 to the basket">Add to basket</button></li>
+          <li><span class="rows__name">Cracking Context, Book 2</span><p>Upper KS2</p><span class="rows__value">£4</span><button class="btn btn--secondary add" type="button" data-add="wb-context-2" aria-label="Add Cracking Context Book 2 to the basket">Add to basket</button></li>
+        </ul>
+      </div>
+      <figure class="pl-photo span-6 start-7 downloads-photo"><img src="assets/img/hero-1440.webp" srcset="assets/img/hero-780.webp 780w, assets/img/hero-1440.webp 1440w" sizes="(max-width: 639px) 200vw, (max-width: 1023px) 100vw, 1130px" width="1440" height="804" alt="A tutor crouches beside a round table where three children work on practice papers, one with a hand raised." loading="lazy" data-source="illustration" data-subject="a tutor and three children working on practice papers"></figure>
+    </div>
+  </section>
+</main>
+
+<footer class="footer closing footer--visit ground-brand" id="contact" aria-labelledby="close-h">
+  <div class="wrap">
+    <div class="closing__cta close--type">
+      <div class="section-head">
+        <h2 id="close-h">Term places for Years 3 to 11</h2>
+        <p>£252 a term for Years 3 to 5 and £306 for Years 7 to 11, paid in full at booking.</p>
+      </div>
+      <a class="btn btn--primary btn--xl btn--wide" href="#terms">Book a term place<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a>
+    </div>
+    <div class="closing__links">
+      <div class="grid">
+        <div class="span-6 stack-4">
+          <address class="footer__address">Holy Trinity Church, Maldon Road, Wallington</address>
+          <p><a class="link" href="https://www.openstreetmap.org/search?query=Maldon%20Road%20Wallington">Get directions</a></p>
+        </div>
+        <div class="span-6 start-7 stack-4">
+          <h3>Online on Zoom</h3>
+          <p><a class="link" href="mailto:mrswatson@wonderlearn.co.uk">Email Mrs Watson</a></p>
+          <p><a class="link" href="https://www.facebook.com/wonderlearn.co.uk/">Wonderlearn on Facebook</a></p>
+        </div>
+      </div>
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="index.html#eleven">11+</a><a href="index.html#gcse">GCSE</a><a href="index.html#lessons">Lessons</a><a href="index.html#wallington">Wallington</a><a href="shop.html" aria-current="page">Shop</a><a href="checkout.html">Checkout</a>
+      </nav>
+      <div class="footer__legal">
+        <span>&copy; 2026 Wonderlearn</span>
+        <a href="privacy.html">Privacy</a>
+        <details class="credits"><summary>Illustrations made with Google Gemini</summary><p>Every illustration on this site was generated with Google Gemini, in place of photographs of Wonderlearn's lessons.</p></details>
+      </div>
+    </div>
+  </div>
+</footer>
+<nav class="actionbar" aria-label="Quick actions">
+  <a class="btn btn--primary" href="#terms">Book a term place</a>
+</nav>
+<script src="cart.js" defer></script>
+<script type="module" src="assets/system.js"></script>
+<script type="module" src="assets/motion/motion.js"></script>
+<script type="module" src="assets/layout/layout.js"></script>
+</body>
+</html>
